@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script lists the current directory showing the part after the first dash
+for f in *; do
+  echo "${f#*-}"
+done
